@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+	<TextView  
+		android:id="@+id/server_add_title"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:text="@string/hello"
+	    />
+	    
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:id="@+id/LinearLayout02" android:layout_height="fill_parent" android:orientation="vertical">
+			<TextView android:id="@+id/server_add_textview_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_TEXTVIEW_NAME"></TextView>
+			<EditText android:layout_width="wrap_content" android:text="" android:id="@+id/server_add_edit_name" android:hint="@string/SERVER_ADD_HINT_NAME" android:layout_height="wrap_content" android:inputType="text"></EditText>
+			
+			<TextView android:id="@+id/server_add_textview_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_TEXTVIEW_ADDRESS"></TextView>
+			<EditText android:layout_width="wrap_content" android:text="" android:id="@+id/server_add_edit_address" android:hint="@string/SERVER_ADD_HINT_ADDRESS" android:inputType="textUri" android:layout_height="wrap_content"></EditText>
+			
+			<TextView android:id="@+id/server_add_textview_user" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_TEXTVIEW_USER"></TextView>
+			<EditText android:layout_width="wrap_content" android:text="" android:id="@+id/server_add_edit_user" android:hint="@string/SERVER_ADD_HINT_USER" android:inputType="text" android:layout_height="wrap_content"></EditText>
+			
+			<TextView android:id="@+id/server_add_textview_pass" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_TEXTVIEW_PASS"></TextView>
+			<EditText android:layout_width="wrap_content" android:text="" android:id="@+id/server_add_edit_pass" android:hint="@string/SERVER_ADD_HINT_PASS" android:inputType="textPassword" android:layout_height="wrap_content"></EditText>
+			
+			<TextView android:id="@+id/server_add_textview_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_TEXTVIEW_PORT"></TextView>
+			<EditText android:layout_width="wrap_content" android:text="" android:id="@+id/server_add_edit_port" android:hint="@string/SERVER_ADD_HINT_PORT" android:inputType="number" android:layout_height="wrap_content"></EditText>
+			
+			<TextView android:id="@+id/server_add_textview_remotedir" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_TEXTVIEW_REMOTEDIR"></TextView>
+			<EditText android:layout_width="wrap_content" android:text="" android:id="@+id/server_add_edit_remotedir" android:hint="@string/SERVER_ADD_HINT_REMOTEDIR" android:inputType="text" android:layout_height="wrap_content"></EditText>
+			
+			<TextView android:id="@+id/server_add_textview_localdir" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_TEXTVIEW_LOCALDIR"></TextView>
+			<EditText android:layout_width="wrap_content" android:text="" android:id="@+id/server_add_edit_localdir" android:hint="@string/SERVER_ADD_HINT_LOCALDIR" android:inputType="text" android:layout_height="wrap_content"></EditText>
+		</LinearLayout>
+	</ScrollView>	
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:orientation="horizontal">
+		<Button android:id="@+id/ADD" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_BUTTON_ADD" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+		<Button android:id="@+id/CANCEL" android:layout_height="wrap_content" android:text="@string/SERVER_ADD_BUTTON_CANCEL" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+	</LinearLayout>
+</LinearLayout>

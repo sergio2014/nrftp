@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/tabhost">
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+	<TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<FrameLayout android:id="@android:id/tabcontent" android:layout_width="wrap_content" android:layout_height="wrap_content"  >
+
+		<LinearLayout android:id="@+id/first_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+			<TextView android:layout_height="30dip" 
+						android:id="@+id/TextView01" 
+						android:text="@string/hello2"
+						android:textSize="40px"
+						android:textColor="@color/solid_blue"
+						android:layout_width="fill_parent"
+						android:padding="5dip"
+			/>
+
+			<ListView android:layout_height="wrap_content"  android:layout_width="fill_parent" android:id="@+id/ListView01"/>
+		</LinearLayout>
+		
+
+		<LinearLayout android:id="@+id/second_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+			<TextView android:layout_height="30dip" 
+						android:id="@+id/TextView02" 
+						android:text="@string/hello2"
+						android:textSize="40px"
+						android:textColor="@color/solid_blue"
+						android:layout_width="fill_parent"
+						android:padding="5dip"
+			/>
+			
+			<ListView android:layout_height="wrap_content"  android:layout_width="fill_parent" android:id="@+id/ListView02"/>
+			
+		</LinearLayout>
+	</FrameLayout>
+
+</LinearLayout>
+</TabHost>

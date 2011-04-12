@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">NRFTP</string>
+<string name="app_name">NRFTP</string>
+<string name="hello2">hello</string>
+<string name="Button01">接続</string>
+<string name="Button02">履歴を表示\n</string>
+<string name="Button03">サーバーを\n追加</string>
+<string name="Button04">サーバーを\n削除</string>
+<string name="Button05">サーバー情報を編集</string>
+
+<string name="TOP_FTP_CONN_NG">DL/UL 履歴</string>
+<string name="TOP_INFO">情報</string>
+<string name="TOP_FTP_CONN_NG_MESSAGE">FTP接続に失敗しました。\n設定を確認してください。</string>
+<string name="TOP_ACCEPT">了解</string>
+<string name="TOP_FTP_LOGIN">ログイン中です</string>
+<string name="TOP_SPINNER_SERVER_LIST">FTPサーバーリスト</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_INFO">確認</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_MESSAGE">%s を削除しますか？</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_OK">削除</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_CANCEL">キャンセル</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_INFO">確認</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_MESSAGE">%s を編集しますか？</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_OK">編集</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_CANCEL">キャンセル</string>
+<string name="TOP_SERVER_ADD_DUPLICATE_INFO">情報</string>
+<string name="TOP_SERVER_ADD_DUPLICATE_MESSAGE">名前が重複しています。異なる名前を設定してください。</string>
+<string name="TOP_SERVER_ADD_DUPLICATE_ACCEPT">了解</string>
+
+<string name="FTPMAIN_DEL_INFO">削除確認</string>
+<string name="FTPMAIN_DEL_CONFIRM">削除しますか？</string>
+<string name="FTPMAIN_DEL_BUTTON_DELETE">削除</string>
+<string name="FTPMAIN_DEL_BUTTON_CANCEL">キャンセル</string>
+<string name="FTPMAIN_UL_INFO">情報</string>
+<string name="FTPMAIN_UL_MESSAGE">byte を送信しますか？</string>
+<string name="FTPMAIN_UL_BUTTON_START">UL</string>
+<string name="FTPMAIN_UL_BUTTON_CANCEL">キャンセル</string>
+<string name="FTPMAIN_UL_PROGRESS">送信中..\n</string>
+<string name="FTPMAIN_UL_CURRENT_DIR">現在のローカルパス  </string>
+<string name="FTPMAIN_DL_CURRENT_DIR">現在のパス  </string>
+<string name="FTPMAIN_DL_CHANGE_DIR_NG">フォルダの移動に失敗しました。</string>
+<string name="FTPMAIN_DL_INFO">情報</string>
+<string name="FTPMAIN_DL_MESSAGE">byte をダウンロードしますか？</string>
+<string name="FTPMAIN_DL_BUTTON_START">DL</string>
+<string name="FTPMAIN_DL_BUTTON_CANCEL">キャンセル</string>
+<string name="FTPMAIN_DL_PROGRESS">受信中..\n</string>
+<string name="FTPMAIN_TRANSFER_CANCEL">転送をキャンセルしました\n</string>
+
+<string name="FTPMAIN_PARENT_FOLDER">１つ上のフォルダ</string>
+<string name="FTPMAIN_CHANGE_DIR_FAIL">フォルダの移動に失敗しました。</string>
+<string name="FTPMAIN_RESULT_FILESIZE">ファイルサイズ :</string>
+<string name="FTPMAIN_RESULT_BYTE_AND_ELAPSED">Byte\n経過時間 :</string>
+<string name="FTPMAIN_RESULT_SEC_AND_SPEED">秒\n速度 :</string>
+<string name="FTPMAIN_RESULT_INFO">情報</string>
+<string name="FTPMAIN_RESULT_ACCEPT">OK</string>
+<string name="FTPMAIN_FOLDER"> \n フォルダ</string>
+<string name="FTPMAIN_LOCAL_FOLDER">ローカルフォルダ</string>
+<string name="FTPMAIN_OP_MENU_UPDATE">更新</string>
+<string name="FTPMAIN_OP_MENU_HISTORY">履歴</string>
+
+<string name="HISTORY_VIEW_TITLE">DL/UL 履歴</string>
+<string name="HISTORY_BUTTON_SEND">メールで送信</string>
+<string name="HISTORY_COLUMN">No, DL/UL, 日付, 開始時間, 経過時間, スループット, ファイル名, ファイルサイズ\n\n</string>
+<string name="HISTORY_UL_ONLY">ULのみ表示</string>
+<string name="HISTORY_DL_ONLY">DLのみ表示</string>
+<string name="HISTORY_SHOW_ALL">すべて表示</string>
+<string name="HISTORY_DELETE">履歴削除</string>
+<string name="HISTORY_MAIL_SUBJECT">FTP 送受信履歴</string>
+
+<string name="SERVER_ADD_TEXTVIEW_NAME">名前</string>
+<string name="SERVER_ADD_TEXTVIEW_ADDRESS">サーバーのアドレス</string>
+<string name="SERVER_ADD_TEXTVIEW_USER">ユーザー名</string>
+<string name="SERVER_ADD_TEXTVIEW_PASS">パスワード</string>
+<string name="SERVER_ADD_TEXTVIEW_PORT">ポート(標準は21)</string>
+<string name="SERVER_ADD_TEXTVIEW_REMOTEDIR">サーバーの初期フォルダ</string>
+<string name="SERVER_ADD_TEXTVIEW_LOCALDIR">ローカルの初期フォルダ</string>
+<string name="SERVER_ADD_BUTTON_ADD">追加</string>
+<string name="SERVER_ADD_BUTTON_CANCEL">キャンセル</string>
+<string name="SERVER_ADD_BUTTON_EDIT">編集</string>
+
+<string name="SERVER_ADD_HINT_NAME">例）My FTPサーバー</string>
+<string name="SERVER_ADD_HINT_ADDRESS">www.myftp.com.jp</string>
+<string name="SERVER_ADD_HINT_USER">ユーザー名</string>
+<string name="SERVER_ADD_HINT_PASS">パスワード</string>
+<string name="SERVER_ADD_HINT_PORT">21(省略可)</string>
+<string name="SERVER_ADD_HINT_REMOTEDIR">/public_html (省略可</string>
+<string name="SERVER_ADD_HINT_LOCALDIR">/mnt/sdcard (省略可)</string>
+
+
+</resources>

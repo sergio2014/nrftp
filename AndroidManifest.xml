@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="jp.nrftp"
+      android:versionCode="2"
+      android:installLocation="preferExternal"
+      android:versionName="1.1">
+
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".nrftp"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name="ftpmain"></activity>
+	<activity android:name="ftpmain2"></activity>
+	<activity android:name="resultDisp"></activity>
+	<activity android:name="history"></activity>
+	<activity android:name="serverAdd"></activity>
+	<activity android:name="com.google.ads.AdActivity"
+	          android:configChanges="keyboard|keyboardHidden|orientation"/>
+
+</application>
+
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"></uses-sdk>
+
+</manifest> 

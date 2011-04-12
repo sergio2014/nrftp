@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">NRFTP</string>
+<string name="app_name">NRFTP</string>
+<string name="hello2">hello</string>
+<string name="Button01">Connect</string>
+<string name="Button02">Show history</string>
+<string name="Button03">Setting</string>
+<string name="Button04">Delete</string>
+<string name="Button05">Edit</string>
+
+<string name="TOP_FTP_CONN_NG">DL/UL History</string>
+<string name="TOP_INFO">Info</string>
+<string name="TOP_FTP_CONN_NG_MESSAGE">FTP Connect failed.</string>
+<string name="TOP_ACCEPT">Accept</string>
+<string name="TOP_FTP_LOGIN">Login..</string>
+<string name="TOP_SPINNER_SERVER_LIST">Server list</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_INFO">Info</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_MESSAGE">Delete %s ?</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_OK">Delete</string>
+<string name="TOP_SERVER_DELETE_CONFIRM_CANCEL">Cancel</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_INFO">Info</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_MESSAGE">Edit %s ？</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_OK">Edit</string>
+<string name="TOP_SERVER_EDIT_CONFIRM_CANCEL">Cancel</string>
+<string name="TOP_SERVER_ADD_DUPLICATE_INFO">Info</string>
+<string name="TOP_SERVER_ADD_DUPLICATE_MESSAGE">Duplicate name!\n Prohibit name duplication.</string>
+<string name="TOP_SERVER_ADD_DUPLICATE_ACCEPT">Accept</string>
+
+<string name="FTPMAIN_DEL_INFO">Info</string>
+<string name="FTPMAIN_DEL_CONFIRM">Delete?</string>
+<string name="FTPMAIN_DEL_BUTTON_DELETE">Delete</string>
+<string name="FTPMAIN_DEL_BUTTON_CANCEL">Cancel</string>
+<string name="FTPMAIN_UL_INFO">Info</string>
+<string name="FTPMAIN_UL_MESSAGE">byte upload?</string>
+<string name="FTPMAIN_UL_BUTTON_START">UL</string>
+<string name="FTPMAIN_UL_BUTTON_CANCEL">Cancel</string>
+<string name="FTPMAIN_UL_PROGRESS">Uploading..\n</string>
+<string name="FTPMAIN_UL_CURRENT_DIR">Current DIR =</string>
+<string name="FTPMAIN_DL_CURRENT_DIR">Current DIR =</string>
+<string name="FTPMAIN_DL_CHANGE_DIR_NG">Directory change failed..</string>
+<string name="FTPMAIN_DL_INFO">Info</string>
+<string name="FTPMAIN_DL_MESSAGE">byte download?</string>
+<string name="FTPMAIN_DL_BUTTON_START">DL</string>
+<string name="FTPMAIN_DL_BUTTON_CANCEL">Cancel</string>
+<string name="FTPMAIN_DL_PROGRESS">Downloading..\n</string>
+<string name="FTPMAIN_TRANSFER_CANCEL">Transfer canceled.\n</string>
+<string name="FTPMAIN_PARENT_FOLDER">Parent directory</string>
+<string name="FTPMAIN_CHANGE_DIR_FAIL">Directory change failed..</string>
+<string name="FTPMAIN_RESULT_FILESIZE">File size :</string>
+<string name="FTPMAIN_RESULT_BYTE_AND_ELAPSED">Byte\nElapsed :</string>
+<string name="FTPMAIN_RESULT_SEC_AND_SPEED">Sec\nSpeed :</string>
+<string name="FTPMAIN_RESULT_INFO">Info</string>
+<string name="FTPMAIN_RESULT_ACCEPT">OK</string>
+<string name="FTPMAIN_FOLDER"> \n Directory</string>
+<string name="FTPMAIN_LOCAL_FOLDER">Local DIR =</string>
+<string name="FTPMAIN_OP_MENU_UPDATE">Update</string>
+<string name="FTPMAIN_OP_MENU_HISTORY">History</string>
+
+<string name="HISTORY_VIEW_TITLE">DL/UL History</string>
+<string name="HISTORY_BUTTON_SEND">SEND</string>
+<string name="HISTORY_COLUMN">No, DL/UL, Date, StartTime, Elapsed, Throughput, Filename, Filesize\n\n</string>
+<string name="HISTORY_UL_ONLY">DISPLAY UL ONLY</string>
+<string name="HISTORY_DL_ONLY">DISPLAY DL ONLY</string>
+<string name="HISTORY_SHOW_ALL">DISPLAY DL/UL</string>
+<string name="HISTORY_DELETE">DELETE</string>
+<string name="HISTORY_MAIL_SUBJECT">FTP UL/DL History</string>
+
+<string name="SERVER_ADD_TEXTVIEW_NAME">Name</string>
+<string name="SERVER_ADD_TEXTVIEW_ADDRESS">Address</string>
+<string name="SERVER_ADD_TEXTVIEW_USER">User ID</string>
+<string name="SERVER_ADD_TEXTVIEW_PASS">Password</string>
+<string name="SERVER_ADD_TEXTVIEW_PORT">Port(default:21)</string>
+<string name="SERVER_ADD_TEXTVIEW_REMOTEDIR">Remote directory</string>
+<string name="SERVER_ADD_TEXTVIEW_LOCALDIR">Local directory</string>
+<string name="SERVER_ADD_BUTTON_ADD">ADD</string>
+<string name="SERVER_ADD_BUTTON_CANCEL">CANCEL</string>
+<string name="SERVER_ADD_BUTTON_EDIT">EDIT</string>
+
+<string name="SERVER_ADD_HINT_NAME">ex）My FTP server</string>
+<string name="SERVER_ADD_HINT_ADDRESS">www.myftp.com.jp</string>
+<string name="SERVER_ADD_HINT_USER">John</string>
+<string name="SERVER_ADD_HINT_PASS">password</string>
+<string name="SERVER_ADD_HINT_PORT">21(Omittable)</string>
+<string name="SERVER_ADD_HINT_REMOTEDIR">/public_html (Omittable)</string>
+<string name="SERVER_ADD_HINT_LOCALDIR">/mnt/sdcard (Omittable)</string>
+
+</resources>
